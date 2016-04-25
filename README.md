@@ -1,7 +1,7 @@
 # Tutorial
 To run this tutorial you need to run jupyter.
 If you run jupyter remotely, you can use jupyter notebook --ip=0.0.0.0
-The tutorial should be run on a Linus machine.
+The tutorial should be run on a Linux machine.
 Please contact mmalinow@mpi-inf.mpg.de if you encounter any problems.
 
 # Kraino - Keras-based RNN for Visual Turing Test
