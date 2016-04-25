@@ -6,9 +6,10 @@ If you run jupyter remotely, you can use jupyter notebook --ip=0.0.0.0
 Main file: visual_turing_test.ipynb
 
 The tutorial should be run on a Linux machine.
+Please also make sure that all Installation requirements are fullfiled
+and you have similar versions of Theano and Keras (see 'Tested on').
 
 Please contact mmalinow@mpi-inf.mpg.de if you encounter any problems.
-
 
 # Kraino - Keras-based RNN for Visual Turing Test
 Keras implementation of the 'Ask Your Neurons'.
@@ -21,17 +22,12 @@ Keras implementation of the 'Ask Your Neurons'.
 Requirements:
  * Theano
  * Keras (fchollet)
- * Agnez (EderSantana)
  * toolz
  * h5py
  * Bokeh (0.10.0)
- * sklearn
  * nltk (required by WUPS metrics)
  * pydot
  * spacy
- * seaborn (required by Agnez)
- * sklearn (required by Agnez)
- * matplotlib (required by Agnez) 
 
 Additional:
  * VQA (VT-vision-lab/VQA) for Visual Question Answering 
@@ -93,8 +89,8 @@ encourage to use a fork from a fixed time stamp.
 
 ## Tested on 
  * Python 2.7.3
- * Theano:0.8.0.dev0.dev-709c944030a713d0dd7e1d16d10d99a192a1f716
- * Keras:f2443de96d71b4328d840a6e7e77958025055529
+ * Theano:0.8.0.dev0.dev-63990436c98f107cf120f3578021a5d259ecf352
+ * Keras:b587aeee1c1be3633a56b945af3e7c2c303369ca
 
 ## Bibliography
     @inproceedings{malinowski2015ask,

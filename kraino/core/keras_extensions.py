@@ -5,9 +5,9 @@ Author: Mateusz Malinowski
 Email: mmalinow@mpi-inf.mpg.de
 """
 
-import marshal
+#import marshal
 import numpy 
-import types
+#import types
 
 from keras.layers.convolutional import Convolution1D
 from keras.layers.convolutional import MaxPooling1D
@@ -105,8 +105,9 @@ class LambdaWithMask(MaskedLayer, Lambda):
     That is: LambdaWithMask(f) = f(previous, mask)
     """
     def get_output(self, train=False):
-        func = marshal.loads(self.function)
-        func = types.FunctionType(func, globals())
+        #func = marshal.loads(self.function)
+        #func = types.FunctionType(func, globals())
+        func = self.function
         if hasattr(self, 'previous'):
             return func(self.previous.get_output(train), 
                     self.previous.get_output_mask(train))
