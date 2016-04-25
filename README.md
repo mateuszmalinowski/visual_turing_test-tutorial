@@ -4,6 +4,8 @@ To run this tutorial you need to run jupyter.
 If you run jupyter remotely, you can use jupyter notebook --ip=0.0.0.0
 
 Main file: visual_turing_test.ipynb
+The reader is however encouraged to download the notebook together
+with the associated files and go through the tutorial on his own.
 
 The tutorial should be run on a Linux machine.
 Please also make sure that all Installation requirements are fullfiled
