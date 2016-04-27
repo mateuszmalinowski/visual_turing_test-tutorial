@@ -86,8 +86,8 @@ the next era. Before and after each era the (callback) actions are executed.
 
 ## Warning
 The framework is under the continous development, and hence it is not warranted 
-that API won't change in the future. To avoid adaptations to new API, I
-encourage to use a fork from a fixed time stamp.
+that API won't change in the future. To avoid adaptations to new API, you can 
+clone from a specific commit hash.
 
 ## Tested on 
  * Python 2.7.3
