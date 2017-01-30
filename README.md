@@ -95,6 +95,19 @@ clone from a specific commit hash.
  * Keras:b587aeee1c1be3633a56b945af3e7c2c303369ca
 
 ## Bibliography
+
+   @article{malinowski2016ask,
+   
+       title={Ask Your Neurons: A Deep Learning Approach to Visual Question Answering},
+       
+       author={Malinowski, Mateusz and Rohrbach, Marcus and Fritz, Mario},
+  
+       journal={arXiv preprint arXiv:1605.02697},
+       
+       year={2016}
+       
+    }
+
     @inproceedings{malinowski2015ask,
 
         title={Ask your neurons: A neural-based approach to answering questions about images},
@@ -107,4 +120,30 @@ clone from a specific commit hash.
 
         year={2015}
 
+    }
+
+    @inproceedings{malinowski2014multi,
+    
+      title={A multi-world approach to question answering about real-world scenes based on uncertain input},
+      
+      author={Malinowski, Mateusz and Fritz, Mario},
+      
+      booktitle={Advances in Neural Information Processing Systems},
+      
+      pages={1682--1690},
+      
+      year={2014}
+      
+    }
+    
+    @article{malinowski2016tutorial,
+    
+      title={Tutorial on Answering Questions about Images with Deep Learning},
+      
+      author={Malinowski, Mateusz and Fritz, Mario},
+      
+      journal={arXiv preprint arXiv:1610.01076},
+      
+      year={2016}
+      
     }
