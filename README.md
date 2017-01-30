@@ -96,7 +96,7 @@ clone from a specific commit hash.
 
 ## Bibliography
 
-   @article{malinowski2016ask,
+    @article{malinowski2016ask,
    
        title={Ask Your Neurons: A Deep Learning Approach to Visual Question Answering},
        
